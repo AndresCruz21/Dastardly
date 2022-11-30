@@ -3,7 +3,7 @@ pipeline {
   agent any
   environment {
     DASTARDLY_TARGET_URL='https://ginandjuice.shop/'
-    IMAGE_WITH_TAG='public.ecr.aws/portswigger/dastardly:latest'
+    IMAGE_WITH_TAG='xpert98/dastardly'
     JUNIT_TEST_RESULTS_FILE='dastardly-report.xml'
   }
   stages {
